@@ -12,6 +12,7 @@ def animal(input_animal = "dog")
   }
 end
 
+
 # using prompt
 
 def ask
@@ -19,4 +20,10 @@ def ask
   answer = gets
 
   return "Incorrect" unless answer.to_i == 8
+end
+
+
+
+def get_domain(url)
+  url.split("//").second
 end

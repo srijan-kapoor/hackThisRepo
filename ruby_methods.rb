@@ -11,3 +11,17 @@ def animal(input_animal = "dog")
     end
   }
 end
+
+
+
+
+
+
+
+
+
+
+
+def get_domain(url)
+  url.split("//").second
+end
